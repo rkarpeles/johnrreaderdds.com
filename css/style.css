@@ -1,0 +1,35 @@
+/*
+Author  : Ryan Karpeles
+URL     : http://www.johnrreaderdds.com
+---------------------------------------*/
+body {
+  margin: 0;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.4;  }
+
+.strip {
+  background: #891434;
+  color: #fff;
+  padding: 1em 5%; }
+  .strip p {
+    text-align: left;
+    font-size: 1.2em; }
+
+.container {
+  width: 90%;
+  margin: 2em auto; }
+
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0; }
+
+a {
+  color: #fff; }
+
+h2 {
+  margin-top: 0; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
