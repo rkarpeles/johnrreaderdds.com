@@ -1,35 +1,172 @@
-/*
-Author  : Ryan Karpeles
-URL     : http://www.johnrreaderdds.com
----------------------------------------*/
+/* **************************************************************************
+   Title: John R. Reader DDS 						
+   Author: Ryan Karpeles													
+   URL: http://www.johnrreaderdds.com/									
+   ************************************************************************** */ 
+
+/**
+ * TABLE OF CONTENTS
+ *
+ * 1.0 - Base
+ * 2.0 - Layout
+ * 3.0 - Typography     	 
+ * 4.0 - Theme
+ *       - Header
+ *		 - Navigation 		 
+ * 5.0 - Helper Classes
+ * 6.0 - Media Queries
+ *       - Min Max Queries
+ *       - Min Queries
+ *       - Max Queries
+ */ 
+ 
+/* ==========================================================================
+   1.0 - $Base
+   ========================================================================== */  
+   
+* {
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box; }
+		  
 body {
   margin: 0;
+  color: #555;
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-  line-height: 1.4;  }
-
-.strip {
-  background: #891434;
-  color: #fff;
-  padding: 1em 5%; }
-  .strip p {
-    text-align: left;
-    font-size: 1.2em; }
-
-.container {
-  width: 90%;
-  margin: 2em auto; }
-
+  line-height: 1.4; }
+  
 p {
-  text-align: justify;
-  margin: 0 0 1.5em 0; }
+    margin: 0 0 1.5em 0; }
 
 a {
-  color: #fff; }
-
-h2 {
-  margin-top: 0; }
-
+  color: #276cab;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  -webkit-transition: all ease-in-out .1s;
+	 -moz-transition: all ease-in-out .1s;
+	   -o-transition: all ease-in-out .1s;
+	      transition: all ease-in-out .1s; }
+  
+a:hover {   
+  color: #008000;
+  border-bottom: 1px solid #ddd; }
+  
 img {
   display: block;
+  height: auto;
   max-width: 100%; }
+
+hr {
+    display: block;
+	clear: both;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0 0 2em;
+    padding: 0; }
+	
+	
+/* ==========================================================================
+   2.0 - $Layout
+   ========================================================================== */
+
+.container {
+  width: 90%; 
+  max-width: 960px;  
+  margin: 2em auto; }
+  
+.container-alt {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto; }
+  
+  
+/* ==========================================================================
+   3.0 - $Typography
+   ========================================================================== */ 
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif;
+  color: #4d4d4d;
+  font-weight: 400;
+  margin: 0 0 .25em 0; 
+  line-height: 1.145; }
+ 
+h1, .alpha   { font-size: 2.1em; } 
+h2, .beta    { font-size: 1.9em; } 
+h3, .gamma   { font-size: 1.7em; } 
+h4, .delta   { font-size: 1.5em; } 
+h5, .epsilon { font-size: 1.3em; } 
+h6, .zeta    { font-size: 1.1em; } 
+.eta         { font-size: 1.05em; } 
+.theta       { font-size: .95em; }
+
+.serif { 
+  font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif; }
+
+.bold   { font-weight: bold; }
+.italic { font-style: italic; }
+
+.green-text {
+  color: #008000; }
+
+
+/* ==========================================================================
+   4.0 - $Theme
+   ========================================================================== */   
+   
+/** 
+ * Header
+ */
+ 
+.header {
+  background: url('../images/header-bg.png') repeat-x;
+  height: 132px;  }
+  
+/* 
+ * Logo
+ */
+ 
+.logo {
+  float: left;
+  padding-top: 30px; }
+	
+a.logo-title {
+  color: #008000;
+  font-size: 1.6em;
+  text-decoration: none; }
+	
+a.logo-title:hover {
+  color: #4d4d4d; }
+  
+  
+/* ==========================================================================
+   5.0 - $Helper Classes
+   ========================================================================== */ 
+   
+.bot-mar-0 { margin-bottom: 0; }
+.bot-mar-1 { margin-bottom: .25em; }
+.bot-mar-2 { margin-bottom: .5em; }
+.bot-mar-3 { margin-bottom: .75em; }
+.bot-mar-4 { margin-bottom: 1em; }
+.bot-mar-5 { margin-bottom: 1.25em; }
+.bot-mar-6 { margin-bottom: 1.5em; }
+.bot-mar-7 { margin-bottom: 1.75em; }
+.bot-mar-8 { margin-bottom: 2em; }
+.bot-mar-9 { margin-bottom: 2.25em; }
+
+.top-mar-0 { margin-top: 0; }
+.top-mar-1 { margin-top: .25em; }
+.top-mar-2 { margin-top: .5em; }
+.top-mar-3 { margin-top: .75em; }
+.top-mar-4 { margin-top: 1em; }
+.top-mar-5 { margin-top: 1.25em; }
+.top-mar-6 { margin-top: 1.5em; }
+.top-mar-7 { margin-top: 1.75em; }
+.top-mar-8 { margin-top: 2em; }
+.top-mar-9 { margin-top: 2.25em; }
+
+/* ==========================================================================
+   6.0 - $Media Queries
+   ========================================================================== */  
 
