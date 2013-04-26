@@ -25,7 +25,7 @@
 <body>
 	
 	<div class="header">
-		<div class="container-alt">	
+		<div class="container">	
 			<div class="logo">
 				<div class="logo-title serif green-txt bold"><a href="/" class="logo-title">John R Reader DDS</a></div>
 				<div class="logo-subtitle lt-grey-txt serif">960 Illinois Route 22 Suite 206
@@ -34,7 +34,8 @@
 		</div>
 	</div>
 	
-	<div class="container-alt">			
+	<div class="container">	
+	
 		<div class="grid-wrap">
 			<div class="grid-col col-full">
 				<div id="nav" class="serif">
@@ -49,9 +50,7 @@
 				</div>
 			</div>				
 		</div> 
-	</div>
 
-	<div class="container">		
 		
 		<!-- Hero Piece -->
 		

@@ -1,8 +1,6 @@
 /*! responsive-nav.js v1.0.14 by @viljamis */
 
 #nav ul {
-  margin: 0;
-  padding: 0;
   width: 100%;
   display: block;
   list-style: none;

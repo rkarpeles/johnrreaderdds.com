@@ -41,15 +41,13 @@ p {
 a {
   color: #276cab;
   text-decoration: none;
-  border-bottom: 1px solid #eee;
   -webkit-transition: all ease-in-out .1s;
 	 -moz-transition: all ease-in-out .1s;
 	   -o-transition: all ease-in-out .1s;
 	      transition: all ease-in-out .1s; }
   
 a:hover {   
-  color: #008000;
-  border-bottom: 1px solid #ddd; }
+  color: #008000; }
   
 img {
   display: block;
@@ -73,11 +71,6 @@ hr {
 .container {
   width: 90%; 
   max-width: 960px;  
-  margin: 1em auto; }
-  
-.container-alt {
-  width: 90%;
-  max-width: 960px;
   margin: 0 auto; }
   
   
@@ -155,11 +148,22 @@ a.logo-subtitle {
  
 #nav {
   float: right;
-  margin: 1.2em 0 .5em;  }
- 
-#nav li {
-  padding-left: 2em; }
+  margin: 5px 0 10px; }
   
+#nav li {
+  padding: 0 6px; }
+  
+#nav a {
+  padding: 5px 10px;
+  color: #4d4d4d;
+  text-decoration: none; }
+  
+#nav a:hover {
+  color:#008000;
+  background-color: #ededed;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px; }
   
 /* ==========================================================================
    5.0 - $Helper Classes
