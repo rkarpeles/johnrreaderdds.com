@@ -194,4 +194,38 @@ a.logo-subtitle {
 /* ==========================================================================
    6.0 - $Media Queries
    ========================================================================== */  
+ 
+
+/* Max Queries
+   ========================================================================== */ 
+   
+@media screen and (max-width: 799px) {
+	#nav-toggle {
+	  float: left;
+	  clear: both;
+	  margin: 10px 0 15px;
+	  padding: 5px 15px;	   
+	  height: 35px;
+	  background: #82a8cc;
+	  font-size: 1.05em; 
+	  color: #fff;
+	  font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif;
+	  -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+              border-radius: 3px; }
+	  
+	#nav {
+	  float: left; }
+	
+	#nav ul {
+	  padding: 0;
+	  margin: 0; }
+	  
+	#nav li {
+	  padding: 5px 0; }
+	  
+	#nav a {
+	  padding: 0; }
+	
+}
 
