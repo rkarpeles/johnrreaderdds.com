@@ -6,27 +6,51 @@
 	<meta charset="utf-8">
 	<title>John R. Reader DDS</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">	
-	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-nav.css">	
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" href="css/ie.css">
 	<![endif]-->	
+	
 	<!-- Google Web Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Scripts -->	
+	<script src="js/responsive-nav.min.js"></script>
 </head>
 <body>
 	
 	<div class="header">
 		<div class="container-alt">	
 			<div class="logo">
-				<div class="logo-title serif green-text bold"><a href="/" class="logo-title">John R Reader DDS</a></div>
-				<div class="logo-subtitle serif eta">960 Illinois Route 22 Suite 206
+				<div class="logo-title serif green-txt bold"><a href="/" class="logo-title">John R Reader DDS</a></div>
+				<div class="logo-subtitle lt-grey-txt serif">960 Illinois Route 22 Suite 206
 				<br>Fox River Grove, IL 60021</div>			
 			</div>
 		</div>
 	</div>
 	
+	<div class="container-alt">			
+		<div class="grid-wrap">
+			<div class="grid-col col-full">
+				<div id="nav" class="serif">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Testimonials</a></li>
+					</ul>
+				</div>
+			</div>				
+		</div> 
+	</div>
+
 	<div class="container">		
 		
 		<!-- Hero Piece -->
@@ -76,6 +100,15 @@
 		<h1>Proportional Grids</h1>
 		<p>Don&rsquo;t think widths, think proportions. A dead simple method of creating responsive fluid grids with fixed gutters. Use classes to set the proportions you want your columns to take at which breakpoint.</p>
 	</div>
+	
+	<!-- Scripts -->
+	<script>
+		var navigation = responsiveNav("#nav");	
+		
+		var navigation = responsiveNav("#nav", {
+			insert: "before"
+		});    
+	</script>
 
 </body>
 </html>
