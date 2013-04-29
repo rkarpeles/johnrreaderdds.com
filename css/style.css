@@ -142,7 +142,31 @@ a.logo-title:hover {
 a.logo-subtitle {
   font-size: 1.2em; }
   
-/* 
+/**
+ * Phone Box
+ */
+ 
+.phone-box {	
+  float: right;
+  padding: 45px 20px 0 0; }	
+	
+	
+.phone-icon {
+  background: url('../images/phone-icon.png') no-repeat;
+  height: 82px;
+  margin: -118px 0 0 -85px;	}
+	
+.phone-call {
+  font-size: 20px;
+  color: #5d6c53;
+  margin-bottom: -4px; }
+	
+.phone-number {
+  height: 82px;
+  font-size: 26px;
+  color: #5d6c53;	}
+  
+/** 
  * Top Nav
  */
  

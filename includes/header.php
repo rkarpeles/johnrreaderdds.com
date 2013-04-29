@@ -30,6 +30,11 @@
 				<div class="logo-title serif green-txt bold"><a href="/" class="logo-title">John R Reader DDS</a></div>
 				<div class="logo-subtitle lt-grey-txt serif">960 Illinois Route 22 Suite 206
 				<br>Fox River Grove, IL 60021</div>			
+			</div>	
+			<div class="phone-box serif">
+				<div class="phone-call">Call Today</div>
+				<div class="phone-number">847.639.8008</div>
+				<div class="phone-icon"></div>
 			</div>
 		</div>
 	</div>
