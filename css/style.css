@@ -12,7 +12,8 @@
  * 3.0 - Typography     	 
  * 4.0 - Theme
  *       - Header
- *		 - Navigation 		 
+ *		 - Navigation 
+ *       - Buttons
  * 5.0 - Helper Classes
  * 6.0 - Media Queries
  *       - Min Max Queries
@@ -188,6 +189,42 @@ a.logo-subtitle {
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px; }
+		  
+/** 
+ * Hero Image
+ */
+ 
+.banner-wrap { 
+  position: relative;
+  margin-bottom: 1.5em; }
+		  
+/** 
+ * Buttons
+ */ 
+  
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  color: #fff;
+  background: #008000;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px; }  
+
+.btn-1 {
+  display: block;
+  position: absolute; 
+  bottom: 16.5%;
+  left: 3.2%; }
+ 
+.btn-2 {
+  display: block;
+  position: absolute; 
+  bottom: 16.5%;
+  left: 20%; }
+  
+  
   
 /* ==========================================================================
    5.0 - $Helper Classes

@@ -5,7 +5,10 @@
 	<div class="divide-bottom">
 		<div class="grid-wrap">
 			<div class="grid-col col-full">
-				<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
+				<div class="banner-wrap">
+					<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
+					<div class="btn btn-1 serif eta">Read More &raquo;</div>
+					<div class="btn btn-2 serif eta">Schedule an Appointment &raquo;</div>
 			</div>				
 		</div>  
 	</div>
