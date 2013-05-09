@@ -79,24 +79,31 @@ hr {
    3.0 - $Typography
    ========================================================================== */ 
  
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif;
   color: #4d4d4d;
   font-weight: 400;
   margin: 0 0 .25em 0; 
   line-height: 1.145; }
+  
+h2, h3 {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700; }
  
-h1, .alpha   { font-size: 2.1em; } 
-h2, .beta    { font-size: 1.9em; } 
-h3, .gamma   { font-size: 1.7em; } 
-h4, .delta   { font-size: 1.5em; } 
-h5, .epsilon { font-size: 1.3em; } 
-h6, .zeta    { font-size: 1.1em; } 
-.eta         { font-size: 1.05em; } 
+h1, .alpha   { font-size: 1.7em; } 
+h2, .beta    { font-size: 1.2em; margin: 0 0 .25em 0; } 
+h3, .gamma   { font-size: 1.5em; } 
+h4, .delta   { font-size: 1.4em; } 
+h5, .epsilon { font-size: 1.3em; margin: 0 0 .5em 0; } 
+h6, .zeta    { font-size: 1.2em; margin: 0 0 .25em 0; } 
+.eta         { font-size: 1.1em; } 
 .theta       { font-size: .95em; }
 
 .serif { 
   font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif; }
+  
+.sans-serif { 
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
 
 .bold   { font-weight: bold; }
 .italic { font-style: italic; }
@@ -251,6 +258,14 @@ a.logo-subtitle {
 .top-mar-7 { margin-top: 1.75em; }
 .top-mar-8 { margin-top: 2em; }
 .top-mar-9 { margin-top: 2.25em; }
+
+/**
+ * Images
+ */
+
+.img-left {
+  float: left; 
+  margin: 0 1.25em .5em 0; }
 
 /* ==========================================================================
    6.0 - $Media Queries
