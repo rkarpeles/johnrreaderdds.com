@@ -7,8 +7,8 @@
 			<div class="grid-col col-full">
 				<div class="banner-wrap">
 					<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
-					<div class="btn btn-1 serif eta">Read More &raquo;</div>
-					<div class="btn btn-2 serif eta">Schedule an Appointment &raquo;</div>
+					<div class="btn btn-1 serif delta">Read More &raquo;</div>
+					<div class="btn btn-2 serif delta">Schedule an Appointment &raquo;</div>
 				</div>
 			</div>				
 		</div>  

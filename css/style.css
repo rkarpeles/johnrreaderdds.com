@@ -74,30 +74,36 @@ hr {
   max-width: 960px;  
   margin: 0 auto; }
   
+.int-col-left, .int-col-right {
+  float: left;
+  display: block; }
+  
   
 /* ==========================================================================
    3.0 - $Typography
    ========================================================================== */ 
+   
+h1, h2, h3, h4, h5 {
+  margin: 0 0 .5em 0; }
  
 h1 {
   font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif;
   color: #4d4d4d;
   font-weight: 400;
-  margin: 0 0 .25em 0; 
   line-height: 1.145; }
   
 h2, h3 {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   font-weight: 700; }
  
-h1, .alpha   { font-size: 1.7em; } 
-h2, .beta    { font-size: 1.2em; margin: 0 0 .25em 0; } 
-h3, .gamma   { font-size: 1.5em; } 
-h4, .delta   { font-size: 1.4em; } 
-h5, .epsilon { font-size: 1.3em; margin: 0 0 .5em 0; } 
-h6, .zeta    { font-size: 1.2em; margin: 0 0 .25em 0; } 
-.eta         { font-size: 1.1em; } 
-.theta       { font-size: .95em; }
+h1, .alpha   { font-size: 1.75em; } 
+h2, .beta    { font-size: 1.3em; } 
+h3, .gamma   { font-size: 1.2em; } 
+h4, .delta   { font-size: 1.1em; } 
+h5, .epsilon { font-size: 1.05em; font-weight: 400; }
+.zeta        { font-size: 1em; }  
+.eta         { font-size: .95em; } 
+.theta       { font-size: .9em; }
 
 .serif { 
   font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif; }
@@ -231,6 +237,36 @@ a.logo-subtitle {
   bottom: 16.5%;
   left: 20%; }
   
+/*start of contact page styles */
+
+.contact-appt {
+  background: url('../images/calendar-icon-gray.png') 0 0 no-repeat;
+  height: 30px;
+  padding: 0 0 0 35px; }
+	
+.contact-hours {
+  background: url('../images/clock-icon-gray.png') 0 0 no-repeat;
+  height: 30px;
+  margin: 25px 0 0;
+  padding: 0 0 0 35px; }
+
+.contact-emergencies {
+  background: url('../images/bouy-icon-gray.png') 0 0 no-repeat;
+  height: 30px;
+  margin: 25px 0 0;
+  padding: 0 0 0 35px; }	
+	
+.contact-location {
+  background: url('../images/store-icon-gray.png') 0 0 no-repeat;
+  height: 30px;
+  padding: 0 0 0 35px; }
+	
+#exec-offices {
+  background: url('../images/executive-offices.jpg') 0 10px no-repeat;
+  height: 308px;
+  margin: 0;
+  padding: 0; }
+  
   
   
 /* ==========================================================================
@@ -258,6 +294,16 @@ a.logo-subtitle {
 .top-mar-7 { margin-top: 1.75em; }
 .top-mar-8 { margin-top: 2em; }
 .top-mar-9 { margin-top: 2.25em; }
+
+.v-space-0, .v-space-1, .v-space-2, .v-space-3, .v-space-4 {
+  display: block;
+  clear: both; }
+  
+.v-space-0 { height: 0; }
+.v-space-1 { height: .5em; }
+.v-space-2 { height: 1em; }
+.v-space-3 { height: 1.5em; }
+.v-space-4 { height: 2.5em; }
 
 /**
  * Images

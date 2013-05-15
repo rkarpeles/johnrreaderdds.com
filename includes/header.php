@@ -47,10 +47,10 @@
 					<ul>
 						<li><a href="index.php">Home</a></li>
 						<li><a href="about.php">About Us</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">FAQs</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Testimonials</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="faqs.php">FAQs</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="testimonials.php">Testimonials</a></li>
 					</ul>
 				</div>
 			</div>				
