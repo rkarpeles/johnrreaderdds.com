@@ -20,6 +20,7 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 	
 	<!-- Scripts -->	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/responsive-nav.min.js"></script>
 </head>
 <body>
@@ -29,7 +30,8 @@
 			<div class="logo">
 				<div class="logo-title serif green-txt bold"><a href="/" class="logo-title">John R Reader DDS</a></div>
 				<div class="logo-subtitle lt-grey-txt serif">960 Illinois Route 22 Suite 206
-				<br>Fox River Grove, IL 60021</div>			
+				<br>Fox River Grove, IL 60021
+				<span class="mobile-number"><br>847.639.8008</span></div>			
 			</div>	
 			<div class="phone-box serif">
 				<div class="phone-call">Call Today</div>

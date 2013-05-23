@@ -8,7 +8,7 @@
 				<h1 class="green-txt">Services</h1>
 				<hr class="bot-mar-6">
 				<h2>Our Services</h2>
-				<p><em>We provide a variety services to meet your family&rsquo;s dental needs including:</em></p>				
+				<p class="bot-mar-0"><em>We provide a variety services to meet your family&rsquo;s dental needs including:</em></p>	
 				
 				<div class="int-col-left">
 					<ul>

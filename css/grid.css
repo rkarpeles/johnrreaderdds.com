@@ -81,7 +81,7 @@ li.grid-col {
 
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 520px) {
   .bp1-col-full,
   .bp1-col-set-full .grid-col {
     width: 100%; }
@@ -105,7 +105,7 @@ li.grid-col {
     width: 75%; } }
 /* -- Breakpoint 2 (.bp2)
 ------------------------------------------------------------- */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 768px) {
   .bp2-col-full,
   .bp2-col-set-full .grid-col {
     width: 100%; }
@@ -129,7 +129,7 @@ li.grid-col {
     width: 75%; } }
 /* -- Breakpoint 3 (.bp3)
 ------------------------------------------------------------- */
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 960px) {
   .bp3-col-full,
   .bp3-col-set-full .grid-col {
     width: 100%; }
