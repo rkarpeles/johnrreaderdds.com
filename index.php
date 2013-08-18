@@ -27,30 +27,30 @@
 			  <ul class="slides">
 				<li>
 					Dr. Reader has always been kind and gentle and he does an excellent job of keeping my teeth in good condition. I readily recommend Dr. Reader to friends who are looking for a new dentist.
-					<div class="testimonial-author">
-						<p><strong>Ree B.</strong></br>
-						<em>Fox River Grove</em></p>
+					<div class="testimonial-author top-mar-1">
+						<strong>Ree B.</strong></br>
+						<em>Fox River Grove</em>
 					</div>
 				</li>
 				<li>
 					From the very first meeting Dr. Reader&rsquo;s office made me feel comfortable and relaxed. He is honest, friendly, and does not do unnecessary work. When I have had work done he gets it right the first time!
-					<div class="testimonial-author">
-						<p><strong>Tim S.</strong></br>
-						<em>Algonquin</em></p>
+					<div class="testimonial-author top-mar-1">
+						<strong>Tim S.</strong></br>
+						<em>Algonquin</em>
 					</div>
 				</li>
 				<li>
 					Dr. John R. Reader is a dentistry genius.  I am 82 years of age, have had all kinds of impossible challenges with my teeth and Dr. Reader has fixed them all.
-					<div class="testimonial-author">
-						<p><strong>A. Robert A.</strong></br>
-						<em>Barrington Hills</em></p>
+					<div class="testimonial-author top-mar-1">
+						<strong>A. Robert A.</strong></br>
+						<em>Barrington Hills</em>
 					</div>
 				</li>
 				<li>
 					Doctor Reader is a very compassionate and caring person. I have a special needs son and Doctor Reader is very patient with him.  He makes all of us feel at ease in his care.
-					<div class="testimonial-author">
-						<p><strong>Laura F.</strong></br>
-						<em>Elmhurst</em></p>
+					<div class="testimonial-author top-mar-1">
+						<strong>Laura F.</strong></br>
+						<em>Elmhurst</em>
 					</div>
 				</li>
 			  </ul>
@@ -61,7 +61,8 @@
 	
 	<div class="grid-wrap">
 		<div class="grid-col bp1-col-one-half">
-			<h1>Where We're Located</h1>
+			<h1>Where We&rsquo;re Located</h1>
+			<hr>
 			<p>Located near the intersection of Route 22 and Route 14, we&rsquo;re easily accessible to residents of Fox River Grove, Cary, Barrington and the surrounding suburbs.</p>
 			<p>Address:<br>
 			960 Illinois Route 22 Suite 206<br>
@@ -70,6 +71,7 @@
 		</div>
 		<div class="grid-col bp1-col-one-half">
 			<h1>Frequently Asked Questions</h1>
+			<hr>
 			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
 		</div>
 	</div>  
