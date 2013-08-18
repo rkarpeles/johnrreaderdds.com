@@ -22,8 +22,19 @@
 	<!-- Scripts -->	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/responsive-nav.min.js"></script>
+	
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+		$('.flexslider').flexslider();
+	  });
+	</script>
+	
 </head>
 <body>
+
 	
 	<div class="header">
 		<div class="container">	

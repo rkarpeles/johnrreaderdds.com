@@ -212,6 +212,65 @@ a.logo-subtitle {
 .banner-wrap { 
   position: relative;
   margin-bottom: 1.5em; }
+  
+/**
+ * BX Slider
+ */
+
+.bx-wrapper {
+  padding-left: 60px; }
+	
+.bx-pager {
+  margin: 10px 0 0 160px; }
+	
+#slider1 {
+  height: 130px;
+  overflow: hidden; }
+
+.quotes {
+  padding: 0 0 0 7px; }
+ 
+.quotes.pager {
+  width: 300px; }
+	
+#left-quote {
+  background: url('../images/left-quotes.png') no-repeat;
+  height: 17px;
+  margin: 0 0 -17px 24px; }
+	
+#right-quote {
+  background: url('../images/right-quotes.png') no-repeat;
+  height: 17px;
+  margin: -30px 0 -2px 390px; }
+	
+a.thumbs {
+ padding: 0 1px; }
+	
+.thumbs {
+ padding: 10px 0 0 185px; }
+	
+.thumbs img {
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30); }
+	
+.thumbs .pager-active img {
+  opacity: .5;	
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";  
+  filter: alpha(opacity=50); }
+	
+.thumbs img:hover {
+  opacity: 0.4;	
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; 
+  filter: alpha(opacity=40); }
+	
+a.bx-next {
+  display:none;	}
+	
+a.bx-prev {
+  display:none;	}
+
+/* end of BX slider */
 		  
 /** 
  * Buttons

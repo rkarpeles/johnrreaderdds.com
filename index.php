@@ -1,49 +1,79 @@
 <?php include('includes/header.php'); ?>
 	
-	<!-- Hero Piece -->
+	<!-- Hero Piece -->	
 	
-	<div class="divide-bottom">
-		<div class="grid-wrap">
-			<div class="grid-col col-full">
-				<div class="banner-wrap">
-					<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
-					<div class="btn btn-1 serif delta">Read More &raquo;</div>
-					<div class="btn btn-2 serif delta">Schedule an Appointment &raquo;</div>
-				</div>
-			</div>				
-		</div>  
-	</div>
-
-	<div class="divide-bottom">
-		<div class="grid-wrap">
-			<div class="grid-col bp1-col-one-half">
-				<h1>About Dr. Reader</h1>
-				<p>Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the about page to learn more or read what other patients have to say.</p>
-				<p><a href="#" class="bold">Read more &raquo;</a></p>
+	<div class="grid-wrap">
+		<div class="grid-col col-full">
+			<div class="banner-wrap">
+				<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
+				<div class="btn btn-1 serif delta">Read More &raquo;</div>
+				<div class="btn btn-2 serif delta">Schedule an Appointment &raquo;</div>
 			</div>
-			<div class="grid-col bp1-col-one-half">
-				<h1>What People Are Saying</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-			</div>
-		</div>  
-	</div>
+		</div>				
+	</div>  	
 	
-	<div class="divide-bottom">
-		<div class="grid-wrap">
-			<div class="grid-col bp1-col-one-half">
-				<h1>Where We're Located</h1>
-				<p>Located near the intersection of Route 22 and Route 14, we&rsquo;re easily accessible to residents of Fox River Grove, Cary, Barrington and the surrounding suburbs.</p>
-				<p>Address:<br>
-				960 Illinois Route 22 Suite 206<br>
-				Fox River Grove, IL 60021<br>
-				<p><a href="#" class="bold">See it on a map &raquo;</a></p>
-			</div>
-			<div class="grid-col bp1-col-one-half">
-				<h1>Frequently Asked Questions</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-			</div>
-		</div>  
-	</div>
+	<div class="grid-wrap">
+		<div class="grid-col bp1-col-one-half">
+			<h1>About Dr. Reader</h1>
+			<hr>
+			<p>Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the about page to learn more or read what other patients have to say.</p>
+			<p><a href="#" class="bold">Read more &raquo;</a></p>
+		</div>
+		<div class="grid-col bp1-col-one-half">
+			<h1>What People Are Saying</h1>
+			<hr>
+			<div class="flexslider">
+			  <div id="left-quote"></div>
+			  <ul class="slides">
+				<li>
+					Dr. Reader has always been kind and gentle and he does an excellent job of keeping my teeth in good condition. I readily recommend Dr. Reader to friends who are looking for a new dentist.
+					<div class="testimonial-author">
+						<p><strong>Ree B.</strong></br>
+						<em>Fox River Grove</em></p>
+					</div>
+				</li>
+				<li>
+					From the very first meeting Dr. Reader&rsquo;s office made me feel comfortable and relaxed. He is honest, friendly, and does not do unnecessary work. When I have had work done he gets it right the first time!
+					<div class="testimonial-author">
+						<p><strong>Tim S.</strong></br>
+						<em>Algonquin</em></p>
+					</div>
+				</li>
+				<li>
+					Dr. John R. Reader is a dentistry genius.  I am 82 years of age, have had all kinds of impossible challenges with my teeth and Dr. Reader has fixed them all.
+					<div class="testimonial-author">
+						<p><strong>A. Robert A.</strong></br>
+						<em>Barrington Hills</em></p>
+					</div>
+				</li>
+				<li>
+					Doctor Reader is a very compassionate and caring person. I have a special needs son and Doctor Reader is very patient with him.  He makes all of us feel at ease in his care.
+					<div class="testimonial-author">
+						<p><strong>Laura F.</strong></br>
+						<em>Elmhurst</em></p>
+					</div>
+				</li>
+			  </ul>
+			</div><!-- /flexslider -->
+			<div id="right-quote"></div>
+		</div>			
+	</div>  
+	
+	<div class="grid-wrap">
+		<div class="grid-col bp1-col-one-half">
+			<h1>Where We're Located</h1>
+			<p>Located near the intersection of Route 22 and Route 14, we&rsquo;re easily accessible to residents of Fox River Grove, Cary, Barrington and the surrounding suburbs.</p>
+			<p>Address:<br>
+			960 Illinois Route 22 Suite 206<br>
+			Fox River Grove, IL 60021<br>
+			<p><a href="#" class="bold">See it on a map &raquo;</a></p>
+		</div>
+		<div class="grid-col bp1-col-one-half">
+			<h1>Frequently Asked Questions</h1>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+		</div>
+	</div>  
+	
 
 </div> <!-- end .container -->
 
