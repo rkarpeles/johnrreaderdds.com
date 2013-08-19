@@ -54,8 +54,8 @@
 					</div>
 				</li>
 			  </ul>
-			</div><!-- /flexslider -->
-			<div id="right-quote"></div>
+			  <div id="right-quote"></div>
+			</div><!-- /flexslider -->			
 		</div>			
 	</div>  
 	

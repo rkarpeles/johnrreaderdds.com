@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">	
 	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive-nav.css">	
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" href="css/ie.css">
 	<![endif]-->	
@@ -21,7 +20,7 @@
 	
 	<!-- Scripts -->	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="js/responsive-nav.min.js"></script>
+	<script src="js/site.js"></script>
 	
 	<!-- Flexslider -->
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
@@ -56,7 +55,8 @@
 	
 		<div class="grid-wrap">
 			<div class="grid-col col-full">
-				<div id="nav" class="serif">
+				<div id="toggle-nav">Menu</div>
+				<div class="top-nav serif">
 					<ul>
 						<li><a href="index.php">Home</a></li>
 						<li><a href="about.php">About Us</a></li>
