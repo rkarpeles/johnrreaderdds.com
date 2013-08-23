@@ -13,6 +13,15 @@
 	</div>  	
 	
 	<div class="grid-wrap">
+		<div class="grid-col col-full">
+			<div class="mobile-tagline-wrap">
+				<div class="tagline-header bot-mar-0">Your own <span class="green-txt">personal</span> dentist.</div>
+				<div class="tagline-subtext">No hygeinist. No waiting around.<br>Private, professional care that&rsquo;s all about you.</div>
+			</div>
+		</div>				
+	</div>  	
+	
+	<div class="grid-wrap">
 		<div class="grid-col bp1-col-one-half">
 			<h1>About Dr. Reader</h1>
 			<hr>
