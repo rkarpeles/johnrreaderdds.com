@@ -3,7 +3,7 @@
 	<!-- Hero Piece -->	
 	
 	<div class="grid-wrap">
-		<div class="grid-col col-full">
+		<div class="grid-col col-full bot-mar-0">
 			<div class="banner-wrap">
 				<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
 				<div class="read-more-button"></div>
@@ -12,11 +12,11 @@
 		</div>				
 	</div>  	
 	
-	<div class="grid-wrap">
+	<div class="grid-wrap show-mobile">
 		<div class="grid-col col-full">
 			<div class="mobile-tagline-wrap">
 				<div class="tagline-header bot-mar-0">Your own <span class="green-txt">personal</span> dentist.</div>
-				<div class="tagline-subtext">No hygeinist. No waiting around.<br>Private, professional care that&rsquo;s all about you.</div>
+				<div class="tagline-subtext">No hygienist. No waiting around. <br class="tagline-break">Private, professional care that&rsquo;s all about <strong>you</strong>.</div>
 			</div>
 		</div>				
 	</div>  	
@@ -25,10 +25,13 @@
 		<div class="grid-col bp1-col-one-half">
 			<h1>About Dr. Reader</h1>
 			<hr>
-			<p>Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the about page to learn more or read what other patients have to say.</p>
-			<p><a href="#" class="bold">Read more &raquo;</a></p>
+	        <div class="john-thumb"></div>
+			<div class="about-text-home">
+				<p>Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the about page to learn more or read what other patients have to say.</p>
+				<p><a href="about.php" class="bold">Read more &raquo;</a></p>
+			</div> 
 		</div>
-		<div class="grid-col bp1-col-one-half">
+		<div class="grid-col bp1-col-one-half hide-mini">
 			<h1>What People Are Saying</h1>
 			<hr>
 			<div class="flexslider">

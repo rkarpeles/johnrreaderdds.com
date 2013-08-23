@@ -236,11 +236,35 @@ a.logo-subtitle {
  
 .mobile-tagline-wrap {
   background: #f0f0f0;
-  padding: 1.5em; }
+  margin: 0 0 1em;
+  padding: 1.5em 1.5em;
+  box-shadow: inset 0 0 20px 0 rgba(0,0,0,.1);
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px; }
 
 .tagline-header {
   font-size: 2.15em; 
+  padding-bottom: 10px;
+  line-height: 1;
   font-weight: 700; }
+  
+.tagline-subtext {
+  font-size: 1.25em; }
+  
+/**
+ * John About Blurb on Homepage
+ */
+ 
+.john-thumb {
+  float: left; 
+  margin: 5px 20px 0 0;
+  background: url('../images/john-thumb.jpg') 0 0 no-repeat;
+  height: 89px;
+  width: 77px; }
+  
+.about-text-home {
+  overflow: hidden; }
 		  
 /** 
  * Buttons
@@ -393,6 +417,18 @@ h3.active { background-position: left bottom;} /*--When toggle is triggered, it 
 .v-space-4 { height: 2.5em; }
 
 /**
+ * Show on Mobile / Smaller Tablets
+ */
+
+@media all and (min-width: 760px) {
+   .show-mobile { display: none; }
+} 
+
+@media all and (max-width: 760px) {
+   .show-mobile { display: block; }
+}
+
+/**
  * Images
  */
 
@@ -468,7 +504,7 @@ h3.active { background-position: left bottom;} /*--When toggle is triggered, it 
    
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 760px) { /* MAIN BREAKPOINT */
 
     .top-nav {
       text-align: left;
@@ -520,6 +556,15 @@ h3.active { background-position: left bottom;} /*--When toggle is triggered, it 
   
     .banner-wrap {
       display: none; }
+	  
+	.john-thumb {
+      margin: 5px 15px 0 0;
+      background: url('../images/john-thumb-small.jpg') 0 0 no-repeat;
+      height: 65px;
+      width: 60px; }
+	  
+	.testimonial-author {
+	  margin-bottom: 1.5em; }
   
 }
 
@@ -532,6 +577,10 @@ h3.active { background-position: left bottom;} /*--When toggle is triggered, it 
 }
 
 @media all and (max-width: 520px) {
+	
+	.hide-mini {
+	  display: none; }
+	
 	.int-col-left, .int-col-right {
 	  width: 100%; }
 	  
@@ -541,4 +590,11 @@ h3.active { background-position: left bottom;} /*--When toggle is triggered, it 
 	.int-col-right ul {
 	  margin-top: 0; }
 
+}
+
+@media all and (max-width: 470px) {
+
+    .tagline-break {
+	  display: none; }
+	  
 }
