@@ -9,7 +9,7 @@
 				<hr class="bot-mar-6">
 				<h2>General</h2>
 			
-				<h3 class="trigger"><a href="#">Do you see children?</a></h3>
+				<h3 class="trigger open-close"><a href="#">Do you see children?</a></h3>
 				<div class="toggle_container">
 					<div class="block">
 						<p>Yes, we love our child patients starting at age 3 (younger for emergency needs) and continuing through the teenage years into adulthood. Most adults who have difficulty seeing the dentist usually relate a bad dental experience as a child. This is to be avoided. So we try to make their visits as fun as possible by providing children's videos, prizes, etc.</p>

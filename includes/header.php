@@ -19,7 +19,7 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 	
 	<!-- Scripts -->	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/site.js"></script>
 	
 	<!-- Flexslider -->
