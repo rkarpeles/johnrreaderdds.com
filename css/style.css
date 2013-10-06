@@ -135,7 +135,7 @@ h5, .epsilon { font-size: 1.05em; font-weight: 400; }
  
 .header {
   background: url('../images/header-bg.png') repeat-x;
-  height: 132px;  }
+  height: 132px; }
   
 /* 
  * Logo
@@ -346,7 +346,7 @@ h3.trigger {
 	font-style: italic;
 	width: 100%;	
 	border: 1px solid #e1e1e1;
-	font-size: 1.03em;
+	font-size: 1em;
     font-weight: normal;
 	line-height: 1.3;
 	cursor: pointer;
@@ -420,7 +420,7 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
   background: -o-linear-gradient(top, #51a851, #008000);
   background: -ms-linear-gradient(top, #51a851, #008000);
   background: linear-gradient(top, #51a851, #008000);
-  background-color: #068306; }
+  background-color: #008000; }
   
 .aside-box {
   overflow: auto; 
@@ -440,29 +440,22 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
   overflow: hidden;
   display: block; }
 		  
-.icon-calendar {
+.icon-calendar, .icon-emergency, .icon-balloon {
   float: left;
-  background: url('../images/schedule-icon.png') 0 2px repeat-x;
   display: block;
-  margin: 1px 12px 0 0;
+  margin: 1px 13px 0 0;
   height: 32px;
   width: 32px; }
+  
+.icon-calendar { 
+  background: url('../images/schedule-icon.png') 0 2px repeat-x; }
   
 .icon-emergency {
-  float: left;
-  background: url('../images/emergency-icon.png') 0 2px repeat-x;
-  display: block;
-  margin: 1px 12px 0 0;
-  height: 32px;
-  width: 32px; }
+  background: url('../images/emergency-icon.png') 0 2px repeat-x; }
   
 .icon-balloon {
-  float: left;
   background: url('../images/quote-balloon.png') 0 2px repeat-x;
-  display: block;
-  margin: 0 12px 0 0;
-  height: 32px;
-  width: 32px; } 
+  margin: 0 13px 0 0;  } 
 
   
 /* ==========================================================================
@@ -654,6 +647,11 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 }
 
 @media all and (max-width: 625px) {
+
+    .header {
+      background: url('../images/header-bg-mob.png') repeat-x;
+      height: 151px; }
+
 	.phone-box {
 	  display: none; }
 	  
