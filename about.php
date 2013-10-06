@@ -35,14 +35,17 @@
 			</div>
 			
 			<div class="grid-col bp1-col-one-third">
-			
-				<?php include('includes/static-sidebar-content.php'); ?>
-				
-				<h4>Testimonials</h4>
-				<p>"I readily recommend Dr. Reader to friends who are looking for a new dentist. As long as I have teeth, I intend to continue to see Dr. Reader every 6 months!"
-				<br>
-				<br>
-				- Ree B.</p>
+			    <div class="sidebar">
+					<?php include('includes/static-sidebar-content.php'); ?>					
+					<h4 class="aside-header">Testimonials</h4>
+					<p class="aside-box">
+						<span class="icon-balloon"></span>
+						<span class="aside-box-content">
+						&ldquo;I readily recommend Dr. Reader to friends who are looking for a new dentist. As long as I have teeth, I intend to continue to see Dr. Reader every 6 months!&rdquo;
+					<br>
+					<br>
+					- Ree B.</p>
+				<div> <!-- end .sidebar -->
 			</div>
 		</div>  
 	</div>
