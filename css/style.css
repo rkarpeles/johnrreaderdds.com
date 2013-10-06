@@ -341,7 +341,7 @@ a.logo-subtitle {
 h3.trigger {
     float: left;
 	font-family: 'PT Serif', Georgia, 'Times New Roman', 'Times', serif;
-	padding: 8px 15px 8px 12px;
+	padding: 7px 15px 7px 12px;
     margin: 0 0 2px 0;
 	font-style: italic;
 	width: 100%;	
@@ -404,6 +404,23 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 
 .toggle_container .block  p{
   margin: 0 0 10px; }
+  
+/**
+ * Testimonials Page
+ */
+ 
+.testimonial-long { 
+  background: url('../images/left-quotes.png') 0 6px no-repeat;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 0 0 5px 40px; 
+  margin-bottom: 1.25em; }
+  
+.testimonial-long p {
+  margin-bottom: .75em; }
+  
+.testimonial-author p {
+  font-size: .9em;
+  margin-bottom: 1.25em; }
   
 /**
  * Sidebar
