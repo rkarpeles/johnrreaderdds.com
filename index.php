@@ -6,8 +6,8 @@
 		<div class="grid-col col-full bot-mar-0">
 			<div class="banner-wrap">
 				<img src="images/banner-home.jpg" alt="Your Own Personal Dentist">
-				<div class="read-more-button"></div>
-				<div class="appt-button"></div>
+				<a href="about.php"><div class="read-more-button"></div></a>
+				<a href="contact.php"><div class="appt-button"></div></a>
 			</div>
 		</div>				
 	</div>  	
@@ -27,7 +27,7 @@
 			<hr>
 	        <div class="john-thumb"></div>
 			<div class="about-text-home">
-				<p>Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the about page to learn more or read what other patients have to say.</p>
+				<p class="bot-mar-3">Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the <a href="about.php">about page</a> to learn more or <a href="testimonials.php">read what other patients</a> have to say.</p>
 				<p><a href="about.php" class="bold">Read more &raquo;</a></p>
 			</div> 
 		</div>
@@ -76,15 +76,22 @@
 			<h1>Where We&rsquo;re Located</h1>
 			<hr>
 			<p>Located near the intersection of Route 22 and Route 14, we&rsquo;re easily accessible to residents of Fox River Grove, Cary, Barrington and the surrounding suburbs.</p>
-			<p>Address:<br>
+			<p class="bot-mar-3"><strong>Address:</strong><br>
 			960 Illinois Route 22 Suite 206<br>
-			Fox River Grove, IL 60021<br>
+			Fox River Grove, IL 60021<br></p>
 			<p><a href="#" class="bold">See it on a map &raquo;</a></p>
 		</div>
 		<div class="grid-col bp1-col-one-half">
 			<h1>Frequently Asked Questions</h1>
-			<hr>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+			<hr>	
+			<ul class="bot-mar-4">
+				<li><a href="faqs.php">Do you see children?</a></li>
+				<li><a href="faqs.php">It hurts to bite on one of my teeth. Why is this?</a></li>
+				<li><a href="faqs.php">My gums bleed easily. Is this normal?</a></li>
+				<li><a href="faqs.php">What insurance plans does Dr. Reader accept?</a></li>
+				<li><a href="faqs.php">Does Dr. Reader accept HMO or public aid dental plans?</a></li>
+			</ul>
+			<p style="margin-left: 40px;"><a href="faqs.php" class="bold">More FAQs &raquo;</a></p>
 		</div>
 	</div>  
 	
