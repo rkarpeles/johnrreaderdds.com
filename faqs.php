@@ -96,7 +96,7 @@
 						&ldquo;I readily recommend Dr. Reader to friends who are looking for a new dentist. As long as I have teeth, I intend to continue to see Dr. Reader every 6 months!&rdquo;
 					<br>
 					<br>
-					- Ree B.</p>
+					- Ree B.</span></p>
 				</div> <!-- end .sidebar -->
 			</div>
 		</div>  

@@ -103,12 +103,12 @@
 					<?php include('includes/static-sidebar-content.php'); ?>					
 					<h4 class="aside-header">Testimonials</h4>
 					<p class="aside-box">
-					    <span class="icon-balloon"></span>
+					  <span class="icon-balloon"></span>
 						<span class="aside-box-content">
 					    &ldquo;Though our children, now grown, have moved on, my wife and I continue under John&rsquo;s thoughtful and trusted care. We have been pleased to refer many of our friends to Dr. Reader.&rdquo;
 					<br>
 					<br>
-					- Bruce B.</p>				
+					- Bruce B.</span></p>				
 				</div> <!-- end .sidebar -->
 			</div>
 		</div>  

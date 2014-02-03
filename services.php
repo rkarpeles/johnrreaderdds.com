@@ -12,11 +12,11 @@
 				
 				<div class="int-col-left">
 					<ul>
-						<li>Exams</li>
-						<li>Cleanings</li>
-						<li>Fillings</li>
-						<li>Crowns</li>
-						<li>Bridges</li>
+						<li><a href="exams.php">Exams</a></li>
+						<li><a href="cleanings.php">Cleanings</a></li>
+						<li><a href="fillings.php">Fillings</a></li>
+						<li><a href="crowns.php">Crowns</a></li>
+						<li><a href="bridges.php">Bridges</a></li>
 						<li>Veneers</li>
 						<li>Bleaching</li>			
 					</ul>										
@@ -46,12 +46,12 @@
 					<?php include('includes/static-sidebar-content.php'); ?>					
 					<h4 class="aside-header">Testimonials</h4>
 					<p class="aside-box">
-					    <span class="icon-balloon"></span>
+					  <span class="icon-balloon"></span>
 						<span class="aside-box-content">
-					    &ldquo;I readily recommend Dr. Reader to friends who are looking for a new dentist. As long as I have teeth, I intend to continue to see Dr. Reader every 6 months!&rdquo;
+					    &ldquo;As a faithful patient of Dr. Reader for over 27 years I can attest that since the age of eight, I have always looked forward to visiting the dentist. Each appointment I am greeted with glowing smiles and truly treated as if I were family.&rdquo;
 					<br>
 					<br>
-					- Ree B.</p>				
+					- Ben M.</span></p>				
 				</div> <!-- end .sidebar -->
 			</div>
 		</div>  
