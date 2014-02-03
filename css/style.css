@@ -265,6 +265,23 @@ a.logo-subtitle {
   
 .about-text-home {
   overflow: hidden; }
+
+/**
+ * John image on About page
+ */
+
+.john-about-img {
+  max-width: 40%; }
+
+
+/**
+ * Map Blurb on Homepage
+ */
+
+.map-thumb {
+  float: right; 
+  max-width: 40%;
+  margin: 5px 0 0 20px; }
 		  
 /** 
  * Buttons
@@ -298,24 +315,24 @@ a.logo-subtitle {
 
 .contact-appt {
   background: url('../images/calendar-icon-gray.png') 0 0 no-repeat;
-  height: 30px;
+  min-height: 30px;
   padding: 0 0 0 35px; }
 	
 .contact-hours {
   background: url('../images/clock-icon-gray.png') 0 0 no-repeat;
-  height: 30px;
+  min-height: 30px;
   margin: 25px 0 0;
   padding: 0 0 0 35px; }
 
 .contact-emergencies {
   background: url('../images/bouy-icon-gray.png') 0 0 no-repeat;
-  height: 30px;
+  min-height: 30px;
   margin: 25px 0 0;
   padding: 0 0 0 35px; }	
 	
 .contact-location {
   background: url('../images/store-icon-gray.png') 0 0 no-repeat;
-  height: 30px;
+  min-height: 30px;
   padding: 0 0 0 35px; }
 	
 #exec-offices {

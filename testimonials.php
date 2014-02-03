@@ -4,7 +4,7 @@
 	
 	<div class="divide-bottom">
 		<div class="grid-wrap">
-			<div class="grid-col bp1-col-two-thirds">
+			<div class="grid-col bp1-col-three-fifths bp2-col-two-thirds">
 				<h1 class="green-txt">Testimonials</h1>
 				<hr class="bot-mar-4">
 				
@@ -98,7 +98,7 @@
 				
 			</div>
 			
-			<div class="grid-col bp1-col-one-third">
+			<div class="grid-col bp1-col-two-fifths bp2-col-one-third">
 				<div class="sidebar">
 					<?php include('includes/static-sidebar-content.php'); ?>					
 					<h4 class="aside-header">Testimonials</h4>

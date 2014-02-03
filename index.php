@@ -25,7 +25,7 @@
 		<div class="grid-col bp1-col-one-half">
 			<h1>About Dr. Reader</h1>
 			<hr>
-	        <div class="john-thumb"></div>
+	    <div class="john-thumb"></div>
 			<div class="about-text-home">
 				<p class="bot-mar-3">Dr. Reader has been a practicing professional dentist for over 25 years. His experience, skill and genuine care for others have earned him the highest trust and respect among his patients and peers. Visit the <a href="about.php">about page</a> to learn more or <a href="testimonials.php">read what other patients</a> have to say.</p>
 				<p><a href="about.php" class="bold">Read more &raquo;</a></p>
@@ -75,6 +75,7 @@
 		<div class="grid-col bp1-col-one-half">
 			<h1>Where We&rsquo;re Located</h1>
 			<hr>
+			<div class="map-thumb"> <img src="images/location-map.jpg" alt="Map of Offices"> </div>
 			<p>Located near the intersection of Route 22 and Route 14, we&rsquo;re easily accessible to residents of Fox River Grove, Cary, Barrington and the surrounding suburbs.</p>
 			<p class="bot-mar-3"><strong>Address:</strong><br>
 			960 Illinois Route 22 Suite 206<br>

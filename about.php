@@ -4,10 +4,10 @@
 	
 	<div class="divide-bottom">
 		<div class="grid-wrap">
-			<div class="grid-col bp1-col-two-thirds">
+			<div class="grid-col bp1-col-three-fifths bp2-col-two-thirds">
 				<h1 class="green-txt">About Dr. John R Reader</h1>
 				<hr class="bot-mar-6">
-				<img class="img-left" src="images/john-large.jpg" alt="About Dr. John R Reader">
+				<div class="john-about-img"><img class="img-left" src="images/john-large.jpg" alt="About Dr. John R Reader"></div>
 				<h2 class="bot-mar-3">Our Philosophy: You Matter Most</h2>
 				<p>We value our patients' <strong>time</strong> as much as our own and therefore endeavor to be as close to on-time as possible. Our patients will usually have little or no wait for their appointments as we do not overbook our schedule. </p>
 				<p>We value our patients' <strong>health</strong> and want the best for them. We present ideal as well as alternative treatment plans so our patients can have the necessary information to choose what's best for them.</p>
@@ -34,7 +34,7 @@
 				<p>While painting, one looks at the world differently, observing much more than one normally would, and appreciating the beauty of light, color, and form in the natural world. It comes as no surprise that these skills are also useful in the art of cosmetic dentistry as well.</p>
 			</div>
 			
-			<div class="grid-col bp1-col-one-third">
+			<div class="grid-col bp1-col-two-fifths bp2-col-one-third">
 			    <div class="sidebar">
 					<?php include('includes/static-sidebar-content.php'); ?>					
 					<h4 class="aside-header">Testimonials</h4>
