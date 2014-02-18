@@ -568,13 +568,13 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 .footer-mid-col {
   background: url('../images/footer-spacer.png') no-repeat;
   height: 68px;
-  width: 390px;
+  width: 380px;
   padding: 0 20px 0 40px; }
 
 .footer-right-col {
   background: url('../images/footer-spacer.png') no-repeat;
   height: 68px;
-  padding-left: 35px;
+  padding-left: 40px;
   width: 200px; }
 
 .foot-list {
@@ -585,16 +585,8 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 .foot-list-col-1,
 .foot-list-col-2,
 .foot-list-col-3 {
-  float: left; }
-
-.foot-list-col-1 {
-  width: 110px; }
-
-.foot-list-col-2 {
-  width: 110px; }
-
-.foot-list-col-3 {
-  width: 110px; }
+  float: left; 
+  width: 33%; }
 
 .foot-header {
   font-weight: 700;
