@@ -1,41 +1,47 @@
 <div class="footer small-text footer-background">	
 
 	<div class="container">
-	  
-		<div class="grid-wrap">
-			<div class="grid-col bp2-col-one-quarter">
-				<strong>Address</strong>
-				<p class="bot-mar-0">960 Illinois Route 22 Suite 206<br>
-				Fox River Grove, IL 60021</p>
-			</div>	
-			<div class="grid-col bp2-col-two-fifths">
-				<strong>Quick Links</strong>
-				<div class="grid-wrap">
-					<div class="grid-col bp2-col-one-third">
-						<ul class="foot-list no-style-list">
-							<li>Home</li>
-							<li>About Us</li>
-						</ul>
-					</div>
-					<div class="grid-col bp2-col-one-third">
-						<ul class="foot-list no-style-list">
-							<li>Contact Us</li>
-							<li>FAQs</li>
-						</ul>
-					</div>
-					<div class="grid-col bp2-col-one-third">
-						<ul class="foot-list no-style-list">
-							<li>Services</li>
-							<li>Testimonials</li>
-						</ul>
-					</div>
+
+		<div class="footer-content-wrap">
+
+			<div class="footer-left-col">
+				<div class="foot-header">Address</div>
+				<div class="foot-address">
+					960 Illinois Route 22 Suite 206<br>
+					Fox River Grove, IL 60021
 				</div>
 			</div>
-			<div class="grid-col bp2-col-one-quarter">
-				<strong>Contact Us</strong>
-				<p class="bot-mar-0">847.639.8008</p>
-			</div>	
-		</div>
+
+			<div class="footer-mid-col">
+			  <div class="foot-header">Menu</div>
+				<div class="foot-list-col-1">
+					<ul class="foot-list">
+						<li><a href="">Home</a></li>
+						<li><a href="">About Us</a></li>
+					</ul>
+				</div>
+				<div class="foot-list-col-2">
+					<ul class="foot-list">
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="foot-list-col-3">
+					<ul class="foot-list">
+						<li><a href="">Services</a></li>
+						<li><a href="">Testimonials</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer-right-col">
+				<div class="foot-header">Contact Us</div>
+				<div class="foot-number">
+					847.639.8008
+				</div>
+			</div>
+
+		</div><!-- .footer-content-wrap -->
 
 		<div class="flowers"></div>
 

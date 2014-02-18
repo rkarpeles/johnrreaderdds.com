@@ -538,12 +538,10 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 .footer {
   position: relative;
   margin: 30px 0 50px;
-  padding: 1.5em 0 .5em;
+  padding: 1.5em 0 2em;
   color: white; }
 
-.foot-list {
-  margin: 0;
-  padding: 0; }
+.footer a { color: white; }
 
 .footer-background {
     background: #52a952; /* Old browsers */
@@ -554,6 +552,57 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
     background: -ms-linear-gradient(top, #52a952 0%,#008000 100%); /* IE10+ */
     background: linear-gradient(to bottom, #52a952 0%,#008000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a952', endColorstr='#008000',GradientType=0 ); /* IE6-9 */ }
+
+.footer-content-wrap {
+    overflow: hidden; }
+
+.footer-left-col,
+.footer-mid-col,
+.footer-right-col {
+  float: left; }
+
+.footer-left-col {
+  width: 215px;
+  margin-right: 20px; }
+
+.footer-mid-col {
+  background: url('../images/footer-spacer.png') no-repeat;
+  height: 68px;
+  width: 390px;
+  padding: 0 20px 0 40px; }
+
+.footer-right-col {
+  background: url('../images/footer-spacer.png') no-repeat;
+  height: 68px;
+  padding-left: 35px;
+  width: 200px; }
+
+.foot-list {
+  margin: 0;
+  padding: 0; 
+  list-style-type: none; }
+
+.foot-list-col-1,
+.foot-list-col-2,
+.foot-list-col-3 {
+  float: left; }
+
+.foot-list-col-1 {
+  width: 110px; }
+
+.foot-list-col-2 {
+  width: 110px; }
+
+.foot-list-col-3 {
+  width: 110px; }
+
+.foot-header {
+  font-weight: 700;
+  margin-bottom: 5px; }
+
+.foot-number {
+  padding-top: 5px;
+  font-size: 1.4em; }
 
 .flowers {
   position: absolute;
