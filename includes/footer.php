@@ -1,7 +1,45 @@
-<div class="footer">
-	<h1>Proportional Grids</h1>
-	<p>Don&rsquo;t think widths, think proportions. A dead simple method of creating responsive fluid grids with fixed gutters. Use classes to set the proportions you want your columns to take at which breakpoint.</p>
-</div>
+<div class="footer small-text footer-background">	
+
+	<div class="container">
+  
+		<div class="grid-wrap">
+			<div class="grid-col col-one-quarter">
+				<strong>Address</strong>
+				<p>960 Illinois Route 22 Suite 206<br>
+				Fox River Grove, IL 60021</p>
+			</div>	
+			<div class="grid-col col-one-half">
+				<strong>Quick Links</strong>
+				<div class="grid-wrap">
+					<div class="grid-col col-one-third">
+						<ul class="foot-list no-style-list">
+							<li>Home</li>
+							<li>About Us</li>
+						</ul>
+					</div>
+					<div class="grid-col col-one-third">
+						<ul class="foot-list no-style-list">
+							<li>Contact Us</li>
+							<li>FAQs</li>
+						</ul>
+					</div>
+					<div class="grid-col col-one-third">
+						<ul class="foot-list no-style-list">
+							<li>Services</li>
+							<li>Testimonials</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="grid-col col-one-quarter">
+				<strong>Contact Us</strong>
+				<p>847.639.8008</p>
+			</div>	
+		</div>
+
+	</div>
+	
+</div><!-- .footer -->
 
 <!-- Scripts -->
 

@@ -47,10 +47,10 @@
 					- Ree B.</span></p>
 				<div> <!-- end .sidebar -->
 			</div>
+
 		</div>  
 	</div>
 	
 </div> <!-- end .container -->
 
 <?php include('includes/footer.php'); ?>
-	
