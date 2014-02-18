@@ -49,6 +49,12 @@
 	
 </div><!-- .footer -->
 
+<div class="container">
+  <div class="copyright">
+	Copyright &copy; <?php echo date("Y") ?> / Design by Ryan Karpeles
+  </div>
+</div>
+
 <!-- Scripts -->
 
 <!-- Responsive Nav -->
