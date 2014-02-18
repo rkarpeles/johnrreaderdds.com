@@ -73,6 +73,7 @@ hr {
    ========================================================================== */
 
 .container {
+  position: relative;
   width: 90%; 
   max-width: 960px;  
   margin: 0 auto; }
@@ -534,6 +535,12 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
  * Footer 
  */
 
+.footer {
+  position: relative;
+  margin: 30px 0 50px;
+  padding: 1.5em 0 .5em;
+  color: white; }
+
 .foot-list {
   margin: 0;
   padding: 0; }
@@ -547,6 +554,16 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
     background: -ms-linear-gradient(top, #52a952 0%,#008000 100%); /* IE10+ */
     background: linear-gradient(to bottom, #52a952 0%,#008000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a952', endColorstr='#008000',GradientType=0 ); /* IE6-9 */ }
+
+.flowers {
+  position: absolute;
+  right: 0;
+  top: -70px;
+  z-index: 200;
+  background: url('../images/flowers.png') no-repeat;
+  height: 190px;
+  width: 154px;
+}
   
 /* ==========================================================================
    5.0 - $Helper Classes
