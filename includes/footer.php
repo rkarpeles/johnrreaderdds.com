@@ -5,10 +5,14 @@
 		<div class="footer-content-wrap">
 
 			<div class="footer-left-col">
-				<div class="foot-header">Address</div>
+				<div class="foot-header foot-header-desktop">Address</div>
+				<div class="foot-header foot-header-tablet">Contact Us</div>
 				<div class="foot-address">
 					960 Illinois Route 22 Suite 206<br>
 					Fox River Grove, IL 60021
+					<span class="foot-number-responsive">
+						<br>847.639.8008
+					</span>
 				</div>
 			</div>
 
@@ -16,20 +20,20 @@
 			  <div class="foot-header">Menu</div>
 				<div class="foot-list-col-1">
 					<ul class="foot-list">
-						<li><a href="">Home</a></li>
-						<li><a href="">About Us</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="about.php">About Us</a></li>
 					</ul>
 				</div>
 				<div class="foot-list-col-2">
 					<ul class="foot-list">
-						<li><a href="">Contact Us</a></li>
-						<li><a href="">FAQs</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="faqs.php">FAQs</a></li>
 					</ul>
 				</div>
 				<div class="foot-list-col-3">
 					<ul class="foot-list">
-						<li><a href="">Services</a></li>
-						<li><a href="">Testimonials</a></li>
+						<li><a href="services.php">Services</a></li>
+						<li><a href="testimonials.php">Testimonials</a></li>
 					</ul>
 				</div>
 			</div>
@@ -44,6 +48,10 @@
 		</div><!-- .footer-content-wrap -->
 
 		<div class="flowers"></div>
+
+		<div class="top-link">
+			<a href="#">Back to Top</a>
+		</div>
 
 	</div><!-- .container -->
 	

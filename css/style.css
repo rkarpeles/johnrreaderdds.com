@@ -596,6 +596,12 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
   padding-top: 5px;
   font-size: 1.4em; }
 
+.foot-number-responsive {
+  display: none; }
+
+.foot-header-desktop {
+  display: none; }
+
 .flowers {
   position: absolute;
   right: 0;
@@ -611,6 +617,9 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
   margin-bottom: 35px;
   font-size: .75em; 
   color: #808080; }
+
+.top-link {
+  display: none; }
   
 /* ==========================================================================
    5.0 - $Helper Classes
@@ -724,42 +733,98 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
    
 @media all and (max-width: 1030px) { 
 
-   .appt-button {
-     left: 21%; }
+ .appt-button {
+   left: 21%; }
    
+}
+
+@media all and (max-width: 1020px) {
+  
+  .footer-left-col {
+    width: 200px;
+    margin-right: 20px; }
+
+  .footer-mid-col {
+    width: 350px;
+    padding: 0 20px 0 30px; }
+
+  .footer-right-col {
+    padding-left: 25px;
+    width: 200px; }
+
+}
+
+@media all and (max-width: 960px) {
+  
+  .footer-left-col {
+    width: 200px;
+    margin-right: 15px; }
+
+  .footer-mid-col {
+    width: 310px;
+    padding: 0 20px 0 20px; }
+
+  .footer-right-col {
+    padding-left: 20px;
+    width: 200px; }
+
+}
+
+@media all and (max-width: 900px) {
+  
+  .footer-left-col {
+    width: 200px;
+    margin-right: 25px; }
+
+  .footer-mid-col {
+    width: 330px;
+    padding: 0 30px 0 30px; }
+
+  .footer-right-col {
+    display: none; }
+
+  .foot-header-desktop { 
+    display: none; }
+
+  .foot-header-tablet { 
+    display: block; }
+
+  .foot-number-responsive {
+    display: inline; }
+
 }
 
 @media all and (max-width: 880px) { 
 
-   .appt-button {
-     left: 22%; }
+ .appt-button {
+   left: 22%; }
    
 }
 
 @media all and (max-width: 840px) { 
 
-   .appt-button {
-     display: none; }
+ .appt-button {
+   display: none; }
    
 }
 
 @media all and (max-width: 760px) { /* MAIN BREAKPOINT */
 
-    .top-nav {
-      text-align: left;
-      height: 0;
-      margin: 0; }
+  .top-nav {
+    text-align: left;
+    height: 0;
+    margin: 0; }
 
-    .top-nav ul {
-      margin: 0 0 10px;
-      padding: 0; }
-  
-    .top-nav li {
-      display: block;
-      padding: 10px 0; }
-  
-    .top-nav li:first-child {
-      padding: 0 0 10px; }
+  .top-nav ul {
+    margin: 0 0 10px;
+    padding: 0; }
+
+  .top-nav li {
+    display: block;
+    padding: 10px 0; }
+
+  .top-nav li:first-child {
+    padding: 0 0 10px; }
  
 	#toggle-nav {
       display: block;
@@ -796,22 +861,50 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
     .banner-wrap {
       display: none; }
 	  
-	.john-thumb {
-      margin: 5px 15px 0 0;
-      background: url('../images/john-thumb-small.jpg') 0 0 no-repeat;
-      height: 65px;
-      width: 60px; }
-	  
-	.testimonial-author {
-	  margin-bottom: 1.5em; }
+  	.john-thumb {
+        margin: 5px 15px 0 0;
+        background: url('../images/john-thumb-small.jpg') 0 0 no-repeat;
+        height: 65px;
+        width: 60px; }
+  	  
+  	.testimonial-author {
+  	  margin-bottom: 1.5em; }
   
+}
+
+@media all and (max-width: 750px) {
+  
+  .footer-left-col {
+    width: 100%;
+    margin-right: 0; }
+
+  .footer-mid-col {
+    background: none;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    padding: 0; }
+
+  .foot-list-col-1,
+  .foot-list-col-2,
+  .foot-list-col-3 {
+    width: 100%; }
+
+  .flowers {
+    display: none; }
+
+  .top-link {
+    display: block;
+    margin-top: 20px;
+    font-weight: 700; }
+
 }
 
 @media all and (max-width: 625px) {
 
-    .header {
-      background: url('../images/header-bg-mob.png') repeat-x;
-      height: 151px; }
+  .header {
+    background: url('../images/header-bg-mob.png') repeat-x;
+    height: 151px; }
 
 	.phone-box {
 	  display: none; }
@@ -838,7 +931,7 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 
 @media all and (max-width: 470px) {
 
-    .tagline-break {
+  .tagline-break {
 	  display: none; }
 	  
 }
