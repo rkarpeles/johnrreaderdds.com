@@ -4,7 +4,8 @@
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>John R. Reader DDS</title>
+	<!-- Meta content populates below. See individual pages for meta info. -->
+  <title><?php echo $pgTitle ?></title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<!-- Stylesheets -->

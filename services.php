@@ -1,3 +1,7 @@
+<?php
+$pgTitle="Services | John R Reader DDS | Dentistry Services in Fox River Grove, IL";
+?>
+
 <?php include('includes/header.php'); ?>
 
 	<!-- Start Page Content -->

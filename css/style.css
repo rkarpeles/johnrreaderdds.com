@@ -614,7 +614,7 @@ h3.active .open-close { background: url('../images/plus-minus.png') 0 -118px no-
 .copyright {
   position: absolute;
   top: -32px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   font-size: .75em; 
   color: #808080; }
 

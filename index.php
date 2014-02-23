@@ -1,3 +1,7 @@
+<?php
+$pgTitle="John R Reader DDS | Dentistry Services in Fox River Grove, IL";
+?>
+
 <?php include('includes/header.php'); ?>
 	
 	<!-- Hero Piece -->	
@@ -80,7 +84,7 @@
 			<p class="bot-mar-3"><strong>Address:</strong><br>
 			960 Illinois Route 22 Suite 206<br>
 			Fox River Grove, IL 60021<br></p>
-			<p><a href="#" class="bold">See it on a map &raquo;</a></p>
+			<p><a target="_blank" href="http://maps.google.com/maps?q=John+R+Reader+DDS+960+Illinois+Route+22+Suite+206+Fox+River+Grove,+IL+60021&hl=en&ll=42.194776,-88.206289&spn=0.008505,0.021136&sll=41.969546,-87.713359&sspn=0.008535,0.021136&vpsrc=0&hq=John+R+Reader+DDS+960&hnear=Illinois+22,+Fox+River+Grove,+Illinois+60021&t=m&z=16&iwloc=A" class="bold">See it on a map &raquo;</a></p>
 		</div>
 		<div class="grid-col bp1-col-one-half">
 			<h1>Frequently Asked Questions</h1>
