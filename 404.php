@@ -1,5 +1,5 @@
 <?php
-$pgTitle="Bridges | John R Reader DDS | Dentistry Services in Fox River Grove, IL";
+$pgTitle="Page Not Available | John R Reader DDS";
 ?>
 
 <?php include('includes/header.php'); ?>
@@ -7,10 +7,10 @@ $pgTitle="Bridges | John R Reader DDS | Dentistry Services in Fox River Grove, I
 	<!-- Start Page Content -->
 	<div class="grid-wrap">
 		<div class="grid-col bp1-col-three-fifths bp2-col-two-thirds">
-			<h1 class="green-txt">Bridges</h1>
+			<h1 class="green-txt">Sorry! The page you requested is not available.</h1>
 			<hr class="bot-mar-6">
-			<p>Bridges are essentially three or more crowns connected together to replace one or more missing teeth. Due to strength requirements, large bridges still need to be done with porcelain on metal, but smaller three crown anterior bridges can be done with e.max or Bruxir.</p>			
-		</div>z
+			<p>This page may have been moved, deleted, or was simply never created. To get back on track, try visiting our <a href="/">homepage</a> or give us a call at 847.639.8008 if you still need assistance.</p>			
+		</div>
 		
 		<div class="grid-col bp1-col-two-fifths bp2-col-one-third">
 			<div class="sidebar">

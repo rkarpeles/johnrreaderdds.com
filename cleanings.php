@@ -32,4 +32,3 @@ $pgTitle="Cleanings | John R Reader DDS | Dentistry Services in Fox River Grove,
 </div> <!-- end .container -->
 
 <?php include('includes/footer.php'); ?>
-	

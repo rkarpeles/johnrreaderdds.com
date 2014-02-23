@@ -42,4 +42,3 @@ $pgTitle="Exams | John R Reader DDS | Dentistry Services in Fox River Grove, IL"
 </div> <!-- end .container -->
 
 <?php include('includes/footer.php'); ?>
-	

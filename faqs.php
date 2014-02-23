@@ -83,9 +83,7 @@ $pgTitle="FAQs | John R Reader DDS | Dentistry Services in Fox River Grove, IL";
 					<!--Content-->
 				</div>
 			</div>
-			
-							
-			
+		
 		</div>
 		
 		<div class="grid-col bp1-col-two-fifths bp2-col-one-third">
