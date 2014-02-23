@@ -20,7 +20,7 @@
 			  <div class="foot-header">Menu</div>
 				<div class="foot-list-col-1">
 					<ul class="foot-list">
-						<li><a href="index.php">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li><a href="about.php">About Us</a></li>
 					</ul>
 				</div>
